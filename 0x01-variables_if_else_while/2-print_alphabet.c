@@ -1,23 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabetic
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 
 
 int main(void)
 {
-	int low;
+	char c;
 
-	for (low = 'a'; low <= 'z'; low++)
-	     putchar(low);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-	putchar("\n");
-
+	putchar('\n');
 	return (0);
-
 }
