@@ -1,6 +1,8 @@
-#include "stdio.h"
+#include "main.h"
 /**
- * main - prints the string "_putchar" from a character array.
+ * main - prints out main character by char.
+ * Description - uses main header file 
+ * that contain the function putchar
  * Return: 0 on success.
  */
 int main(void)
