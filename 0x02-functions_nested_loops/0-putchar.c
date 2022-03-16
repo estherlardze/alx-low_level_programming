@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * main - prints out main character by char.
- * Description - uses main header file
- * that contain the function putchar
- * Return: 0 on success.
+ * main - Entry point
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char c[] = "_putchar";
-	int i;
+	char *ch = "_putchar";
 
-	for (i = 0; i < 8; i++)
+	while (*ch)
 	{
-		_putchar(c[i]);
+
+		_putchar(*ch);
+		ch++;
+
 	}
+
 	_putchar('\n');
 	return (0);
 }
