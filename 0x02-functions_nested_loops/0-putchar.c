@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - prints out main character by char.
- * Description - uses main header file 
+ * Description - uses main header file
  * that contain the function putchar
  * Return: 0 on success.
  */
