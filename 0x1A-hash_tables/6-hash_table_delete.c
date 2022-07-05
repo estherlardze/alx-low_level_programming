@@ -24,12 +24,13 @@ void free_list(hash_node_t *head)
  */
 void hash_table_delete(hash_table_t *ht)
 {
-	unsigned long int a;
+	unsigned long int i;
 
 	if (!ht)
 		return;
-	for (a = 0; a < ht->size; a++)
-		free_list(ht->array[a]);
+
+	for (i = 0; i < ht->size; i++)
+		free_list(ht->array[i]);
 	free(ht->array);
 	free(ht);
 }
